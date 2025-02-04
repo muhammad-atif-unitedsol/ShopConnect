@@ -35,13 +35,13 @@
 
 
 
-    <!-- <move element="my-account-link" destination="hyundai.nav" /> -->
+    <move element="my-account-link" destination="hyundai.nav" />
 
 
-    <!-- <block class="Magento\Framework\View\Element\Template" name="custom_account_icon" template="Magento_Customer::account/link/my-account.phtml" /> -->
+    <!-- <block class="Magento\Framework\View\Element\Template" name="custom_account_icon" template="Magento_Customer::account/link/my-account.phtml" />
 
 
-    <!-- <move element="custom_account_icon" destination="hyundai.nav" /> -->
+    <move element="custom_account_icon" destination="hyundai.nav" /> -->
 
 
     <move element="hyundai.nav" destination="right-col" />
@@ -115,8 +115,4 @@
 
     <move element="wallan.footer" destination="footer"/>
     <move element="copyright" destination="wallan.copyright" />
-
-
-
-
 </layout>

@@ -1,0 +1,1 @@
+/var/www/html/shopconnect/vendor/magento/theme-adminhtml-backend/web/js/theme.js

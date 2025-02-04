@@ -16,7 +16,7 @@
         <css src="css/car_type.css" rel="stylesheet"/>
         <css src="css/social.css" rel="stylesheet"/>
         <!-- <script src="jquery.js"/> -->
-
+        <script src="banner-carousel.js"/>
         <script src="js/owl.carousel.min.js" />
 
 
