@@ -1,0 +1,25 @@
+<style>
+    .custom-navigation {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .custom-navigation li {
+        display: inline-block;
+    }
+    .custom-navigation a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+</style>
+
+<ul class="custom-navigation">
+    <li><a href="<?= $block->getUrl('models') ?>">Models</a></li>
+    <li><a href="<?= $block->getUrl('offers') ?>">Offers</a></li>
+    <li><a href="<?= $block->getUrl('customer-care') ?>">Customer Care</a></li>
+    <li><a href="<?= $block->getUrl('wallan-story') ?>">Wallan Story</a></li>
+    <li><a href="<?= $block->getUrl('contact') ?>">Contact Us</a></li>
+</ul>

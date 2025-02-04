@@ -1,0 +1,85 @@
+.inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+.static_block {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+}
+.static_block .txt {
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.static_block .txt .title {
+    font-size: 44px;
+    color: #000;
+    font-family: "hyundai_medium";
+    line-height: 54px;
+}
+.static_block .content {
+    padding-top: 10px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.static_block .content p {
+    font-size: 16px;
+    color: #000000;
+    font-family: "hyundai_reg";
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+.static_block .content a {
+    font-size: 16px;
+    color: #fff;
+    background-color: #002c5e;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    font-family: "hyundai_reg";
+    display: inline-block;
+}
+
+.static_block .content a:hover {
+    background-color: #003b7d;
+}
+.static_four_col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.8rem;
+    padding-top: 60px;
+}
+.static_four_col li {
+    text-align: center;
+    background-color: #f6f3f2;
+}
+.static_four_col li a {
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.social_four_col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2.8rem;
+    padding: 50px 0px;
+}
+
+.static_four_col li .title {
+    font-size: 18px;
+    color: #000;
+    font-family: "hyundai_medium";
+}
+.static_four_col li img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}

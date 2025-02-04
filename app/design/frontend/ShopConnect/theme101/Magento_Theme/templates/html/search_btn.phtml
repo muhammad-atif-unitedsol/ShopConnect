@@ -1,0 +1,18 @@
+<!-- Search Button Block -->
+<div class="custom-search-button-container">
+<a href="#" id="custom-search-button" class="custom-search-button">
+        <img src="<?= $block->getViewFileUrl('images/search_icon.png') ?>" alt="Search Icon" />
+    </a>
+</div>
+<!-- JavaScript to Toggle Display of Target Container -->
+<script type="text/javascript">
+    document.getElementById('custom-search-button').addEventListener('click', function() {
+        var targetContainer = document.getElementById('search_container');
+        console.log(targetContainer)
+        if (targetContainer.style.display === 'none' || targetContainer.style.display === '') {
+            targetContainer.style.display = 'flex';
+        } else {
+            targetContainer.style.display = 'none';
+        }
+    });
+</script>

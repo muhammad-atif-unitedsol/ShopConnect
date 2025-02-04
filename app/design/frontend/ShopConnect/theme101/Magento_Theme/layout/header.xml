@@ -1,0 +1,6 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="header.xsd" version="1.0.0">
+    <container name="header.container" htmlTag="header" htmlClass="custom-header">
+        <!-- <block class="Magento\Framework\View\Element\Template" name="custom_welcome_block" template="Magento_Theme::html/welcome_message.phtml" /> -->
+    </container>
+</layout>

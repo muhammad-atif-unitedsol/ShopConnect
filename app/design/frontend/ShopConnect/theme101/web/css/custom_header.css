@@ -1,0 +1,33 @@
+/* .page-header {
+    width: 100%;
+    background-color: #f6f3f2;
+    box-shadow: inset 0px 0px 4px 4px #f0edec;
+}
+
+.inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.page-header .header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    padding-top: 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.page-header .wallan span {
+    color: #000;
+    font-size: 17px;
+    text-transform: capitalize;
+font-weight: bolder;
+} */

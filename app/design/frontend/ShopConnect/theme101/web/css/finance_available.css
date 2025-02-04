@@ -1,0 +1,48 @@
+.two_col_block {
+    width: 100%;
+    display: inline-flex;
+}
+.two_col_block .content {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.two_col_block .content p {
+    padding-bottom: 30px;
+}
+.two_col_block .content a {
+    font-size: 16px;
+    color: #fff;
+    background-color: #002c5e;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    font-family: "hyundai_reg";
+    display: inline-block;
+}
+.two_col_block .content a:hover {
+    background-color: #003b7d;
+}
+
+.two_col_block .imgs {
+    width: 50%;
+}
+.two_col_block .imgs ul li {
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 10px;
+}
+.two_col_block .imgs ul li:last-child {
+    padding-bottom: 0;
+}
+.two_col_block .imgs ul li img {
+    max-width: 85%;
+}
+
+.gray_bg {
+    background-color: #f6f3f2;
+}
+.padding_bottom {
+    padding-bottom: 60px;
+}

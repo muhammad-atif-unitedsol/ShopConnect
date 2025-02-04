@@ -1,0 +1,82 @@
+<footer class="footer">
+    
+    <div class="inner_container">
+
+        <div class="logo"> 
+            <a href="<?= $block->getUrl('') ?>"><img src="<?= $block->getViewFileUrl('images/hyundai_icon-logo.png') ?>" alt=""></a> 
+        </div>
+
+        <div class="content">
+            <div class="footer_links accordion-container" id="accordion">
+                
+                <div class="col">
+                    <div class="title article-title"><i></i> <?= __('Service & Information') ?></div>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><a href="<?= $block->getUrl('service-book') ?>"><?= __('Book a service') ?></a></li>
+                            <li><a href="<?= $block->getUrl('find-workshop') ?>"><?= __('Find the nearest workshop') ?></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="title article-title"><i></i> <?= __('Contact & Sales') ?></div>
+                    <ul class="accordion-content">
+                        <li><a href="<?= $block->getUrl('special-offer') ?>"><?= __('Special offer') ?></a></li>
+                        <li><a href="<?= $block->getUrl('contact') ?>"><?= __('Contact us') ?></a></li>
+                        <li><a href="<?= $block->getUrl('book-test-drive') ?>"><?= __('Book a test drive') ?></a></li>
+                        <li><a href="<?= $block->getUrl('view-vehicles') ?>"><?= __('View all vehicles') ?></a></li>
+                        <li><a href="<?= $block->getUrl('request-callback') ?>"><?= __('Request a callback') ?></a></li>
+                        <li><a href="<?= $block->getUrl('faq') ?>"><?= __('FAQ') ?></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="title article-title"><i></i> <?= __('About us') ?></div>
+                    <ul class="accordion-content">
+                        <li><a href="<?= $block->getUrl('about-wallan') ?>"><?= __('About Wallan') ?></a></li>
+                        <li><a href="<?= $block->getUrl('about-hyundai') ?>"><?= __('About Hyundai') ?></a></li>
+                        <li><a href="<?= $block->getUrl('news') ?>"><?= __('News') ?></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="title article-title"><i></i> <?= __('Hyundai Wallan Social Media') ?></div>
+                    <ul class="social_media_link accordion-content">
+                        <li><a href="#"><img src="<?= $block->getViewFileUrl('images/footer_fb-icon.png') ?>" alt=""></a></li>
+                        <li><a href="#"><img src="<?= $block->getViewFileUrl('images/footer_twitter-icon.png') ?>" alt=""></a></li>
+                        <li><a href="#"><img src="<?= $block->getViewFileUrl('images/footer_insta-icon.png') ?>" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_address">
+            <div class="wallan_logo">
+                <a href="<?= $block->getUrl('') ?>"><img src="<?= $block->getViewFileUrl('images/wallan_logo_footer.png') ?>" alt=""></a> 
+            </div>
+            <div class="address">
+                <p>601, Makkah road, P.O. Box: 3176, Riyadh 11471,<br>
+                    Kingdom of Saudi Arabia</p>
+            </div>
+            <div class="phone_no">
+                <p>+(966) 11 491 0808<br>
+                    +(966) 11 493 2238</p>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="links">
+                <ul>
+                    <li><a href="<?= $block->getUrl('vehicle-line-up') ?>"><?= __('Vehicle line-up') ?></a></li>
+                    <li><a href="<?= $block->getUrl('downloads') ?>"><?= __('Downloads') ?></a></li>
+                    <li><a href="<?= $block->getUrl('legal') ?>"><?= __('Legal') ?></a></li>
+                    <li><a href="<?= $block->getUrl('contact') ?>"><?= __('Contact us') ?></a></li>
+                    <li><a href="<?= $block->getUrl('news-alerts') ?>"><?= __('News alerts') ?></a></li>
+                    <li><a href="<?= $block->getUrl('site-map') ?>"><?= __('Site map') ?></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>ⓒ Copyright 2020 Hyundai Wallan. <?= __('All rights reserved') ?></p>
+            </div>
+        </div>
+
+    </div>
+</footer>

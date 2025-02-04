@@ -1,0 +1,1 @@
+/var/www/html/shopconnect/vendor/magento/module-theme/view/frontend/web/js/cookie-status.js

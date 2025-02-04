@@ -1,0 +1,670 @@
+@media (min-width: 200px) and (max-width: 3000px) {
+    #banner_carousel.owl-theme .owl-dots {
+        top: calc(78% + 13%);
+    }
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+    .page-header .header {
+        display: none;
+    }
+    .responsive_logo {
+        display: block;
+    }
+
+    .responsive_logo .full_logo {
+        display: none;
+    }
+
+    .nav-sections {
+        padding: 12px 0px;
+        padding-bottom: 8px;
+    }
+    .nav-sections .responive_menu {
+        display: block;
+    }
+    .nav-sections .responive_menu .btn_menu {
+        float: left;
+        background: url("../images/btn_menu_open.png") no-repeat;
+        width: 17px;
+        height: 17px;
+        display: block;
+        text-indent: -9999px;
+        overflow: hidden;
+        -webkit-background-size: 17px auto;
+        background-size: 17px auto;
+        margin-left: 15px;
+        border: 0;
+        outline: 0;
+    }
+
+    .nav-sections .responive_menu .btn_menu.open {
+        background-position: 0 -17px;
+    }
+
+    #banner_carousel .overlay_content h1 {
+        font-size: 26px;
+        line-height: 37px;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+    }
+    #banner_carousel .overlay_content a {
+        font-size: 15px;
+        padding: 12px 26px;
+    }
+    #banner_carousel.owl-theme .owl-dots .owl-dot span {
+        width: 13px;
+        height: 13px;
+    }
+
+    .banner_static_types {
+        padding: 12px 0px;
+        padding-bottom: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .banner_static_types ul {
+        text-align: center;
+    }
+    .banner_static_types ul li {
+        width: auto;
+        margin-right: 18px;
+    }
+    .banner_static_types ul li img {
+        width: 44px;
+    }
+    .banner_static_types ul li span {
+        margin-left: 5px;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .banner_static_types ul li span:after {
+        width: 6px;
+        height: 12px;
+        background-size: 6px;
+        right: -15px;
+    }
+
+    .section_padding {
+        padding: 30px 0px;
+    }
+    .block_content h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .block_content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .padding_bottom {
+        padding-bottom: 40px;
+    }
+
+    .three_col_block ul {
+        padding: 25px 0px;
+        padding-top: 30px;
+        grid-gap: 1.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(min(273px, 100%), 1fr));
+    }
+    .three_col_block ul li h3 {
+        margin: 10px 0;
+    }
+    .three_col_block ul li h3 a {
+        font-size: 20px;
+    }
+    .three_col_block ul li p {
+        font-size: 16px;
+    }
+    .three_col_block ul li a {
+        display: block;
+    }
+    .three_col_block ul li img {
+        width: 100%;
+    }
+
+    .block_content .more_btn a {
+        font-size: 14px;
+        padding: 12px 25px;
+        padding-top: 13px;
+    }
+
+    .car_model_listing .tab {
+        margin: 20px 0px;
+    }
+    .car_model_listing .tab .tablinks {
+        font-size: 14px;
+        padding: 10px 14px;
+        padding-top: 12px;
+    }
+
+    .car_model_listing .tabcontent {
+        padding: 20px 0px;
+        padding-bottom: 30px;
+    }
+    .car_model_listing .prod_items {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+    }
+    .car_model_listing .prod_items .name {
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+    .car_model_listing .prod_items .price_rang {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .two_col_block {
+        display: block;
+    }
+    .two_col_block .content {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .two_col_block .imgs {
+        width: 100%;
+    }
+    .two_col_block .imgs ul li {
+        width: 32%;
+    }
+    .two_col_block .imgs ul li img {
+        width: 160px;
+    }
+    .two_col_block .content a {
+        font-size: 14px;
+        padding: 12px 25px;
+        padding-top: 13px;
+    }
+
+    .three_col_block .static_box {
+        grid-gap: 1.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+    }
+    .three_col_block .static_box li {
+        min-height: 220px;
+        padding: 10px 32px;
+    }
+    .three_col_block .static_box li img {
+        width: 65px;
+    }
+    .three_col_block .static_box .title {
+        font-size: 16px;
+        padding: 12px 0px;
+        line-height: 20px;
+    }
+    .three_col_block .static_box p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .static_block {
+        display: block;
+    }
+    .static_block .txt {
+        width: 100%;
+        padding: 0;
+    }
+    .static_block .txt .title {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .static_block .content {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .static_block .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .static_block .content a {
+        font-size: 14px;
+        padding: 12px 25px;
+        padding-top: 13px;
+    }
+
+    .static_four_col {
+        padding-top: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .static_four_col li a {
+        min-height: 140px;
+        padding: 0px 10px;
+    }
+    .static_four_col li img {
+        width: 60px;
+        padding-bottom: 10px;
+    }
+    .static_four_col li .title {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .social_tabs .tablinkss {
+        font-size: 14px;
+        padding: 10px 14px;
+        padding-top: 12px;
+    }
+
+    .social_tabs {
+        margin: 20px 0px;
+    }
+
+    .social_four_col {
+        padding: 20px 0;
+        padding-bottom: 30px;
+        grid-template-columns: 1fr;
+        grid-gap: 1.3rem;
+    }
+    .social_four_col .box {
+        padding: 10px;
+        padding-bottom: 8px;
+    }
+    .social_four_col .box a {
+        font-size: 14px;
+        padding-bottom: 10px;
+        line-height: 17px;
+    }
+    .social_four_col .box .social_date span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .sticky_header {
+        position: fixed;
+        top: 0px;
+        z-index: 1001;
+        box-shadow: 0 1px 3px rgba(216, 209, 200, 0.7);
+    }
+
+    .nav-sections .nav_side {
+        top: 49px !important;
+        min-width: 50% !important;
+        box-shadow: 0 1px 3px rgba(216, 209, 200, 0.7);
+    }
+    .nav-sections .nav_side ul li {
+        display: block;
+        padding: 13px 15px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .nav-sections .nav_side ul li a {
+        font-size: 14px;
+    }
+
+    .columns {
+        margin-top: 50px;
+    }
+
+    .footer {
+        padding: 30px 0px;
+        padding-bottom: 20px;
+    }
+    .footer .footer_links {
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+    .footer .footer_links .col {
+        width: 100%;
+    }
+    .footer .footer_links .col:first-child {
+        width: 100%;
+    }
+
+    .footer .footer_links .col .title {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .accordion-content {
+        padding-bottom: 10px;
+        display: none;
+    }
+
+    .footer .footer_address {
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+    .footer_address .wallan_logo {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .footer_address .address {
+        width: 50%;
+        float: left;
+    }
+    .footer_address .address p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .footer_address .phone_no {
+        width: 50%;
+        float: left;
+    }
+    .footer_address .phone_no p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .footer .footer_bottom .links ul li {
+        padding-right: 10px;
+        padding-bottom: 8px;
+    }
+    .footer .footer_bottom .links ul li a {
+        font-size: 12px;
+    }
+
+    .footer .footer_bottom .copyright p {
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .accordion-container .article-title {
+        position: relative;
+    }
+    .accordion-container .article-title i:before {
+        background-image: url("../images/responisve-down-arrow.png");
+        content: "";
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-size: 16px;
+    }
+
+    .accordion-container .open i:before {
+        background-image: url("../images/responisve-up-arrow.png");
+        content: "";
+        display: block;
+    }
+
+    .page-wrapper .input_bar {
+        position: fixed;
+        margin-top: -1px;
+    }
+
+    .page-wrapper .input_bar .search-bar {
+        padding: 0px 15px;
+        max-width: 100%;
+    }
+    .page-wrapper .input_bar .search-bar .input-field {
+        width: 265px;
+        background-position: 95% 57%;
+        box-sizing: border-box;
+    }
+
+    .page-wrapper .input_bar .close .close_icon {
+        top: -7px;
+        right: calc(100px - 87px);
+        background-size: 14px;
+        width: 14px;
+        height: 14px;
+    }
+
+    /*	.page-wrapper .header-hide{display: block;padding-top: 20px;box-sizing: border-box;}*/
+
+    .input_bar .full_search-bar {
+        width: 100%;
+    }
+
+    .page-wrapper .input_bar .close {
+        width: 10%;
+        margin-left: -5px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+    .responsive_logo .small_logo {
+        display: none;
+    }
+    .responsive_logo .full_logo {
+        display: block;
+        width: 120px;
+        padding-top: 3px;
+    }
+
+    .social_four_col {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 750px) {
+    #banner_carousel .slider {
+        background-image: url("../images/responsive_home_banner.jpg");
+        height: 341px;
+    }
+    #banner_carousel .overlay_content {
+        margin-bottom: 20px;
+    }
+
+    #banner_carousel .overlay_content h1 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+    }
+    #banner_carousel .overlay_content a {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    #banner_carousel.owl-theme .owl-dots {
+        display: none;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 900px) {
+    #banner_carousel .slider {
+        height: 500px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .car_model_listing .prod_items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .three_col_block .static_box {
+        grid-template-columns: repeat(auto-fill, minmax(min(330px, 100%), 1fr));
+    }
+
+    .two_col_block {
+        display: inline-flex;
+    }
+    .two_col_block .imgs ul li {
+        width: 49%;
+    }
+
+    .static_four_col {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .static_block {
+        display: inline-flex;
+    }
+
+    .block_content h2 {
+        font-size: 26px;
+    }
+
+    .static_block .content {
+        padding-top: 0;
+    }
+    .static_block .txt {
+        padding-right: 30px;
+    }
+    .static_block .txt .title {
+        font-size: 5.5vw;
+        line-height: 6vw;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .three_col_block .static_box {
+        grid-template-columns: repeat(auto-fill, minmax(min(205px, 100%), 1fr));
+    }
+    .three_col_block ul {
+        grid-template-columns: repeat(auto-fill, minmax(min(205px, 100%), 1fr));
+    }
+
+    .social_four_col {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    #banner_carousel .overlay_content {
+        top: 56%;
+    }
+
+    .social_four_col {
+        grid-gap: 1.8rem;
+    }
+    .social_four_col .box {
+        padding: 15px;
+    }
+    .social_four_col .box a {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .banner_static_types ul {
+        text-align: center;
+    }
+    .banner_static_types ul li {
+        width: auto;
+        padding-right: 35px;
+    }
+    .banner_static_types ul li img {
+        width: 45px;
+    }
+    .banner_static_types ul li span {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 5px;
+    }
+
+    .three_col_block ul {
+        grid-template-columns: repeat(auto-fill, minmax(min(261px, 100%), 1fr));
+    }
+
+    .three_col_block ul li h3 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .three_col_block ul li a {
+        font-size: 22px;
+    }
+    .three_col_block ul li p {
+        font-size: 17px;
+    }
+
+    .car_model_listing .prod_items .price_rang {
+        font-size: 14px;
+    }
+
+    .three_col_block .static_box {
+        grid-gap: 1.5rem;
+    }
+    .three_col_block .static_box li {
+        padding: 0px 20px;
+    }
+    .three_col_block .static_box .title {
+        font-size: 17px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+
+    .static_four_col li .title {
+        font-size: 17px;
+    }
+
+    .footer .footer_links .col:last-child {
+        width: 28%;
+    }
+}
+
+@media (min-width: 901px) {
+    .accordion-content {
+        height: auto !important;
+        display: block !important;
+    }
+}
+
+/*model page responsive*/
+
+@media (min-width: 200px) and (max-width: 900px) {
+    .breadcrum_container .breadcrum ul li a {
+        font-size: 12px;
+    }
+
+    .breadcrum_container {
+        height: 26px;
+    }
+    .top_header_container {
+        height: auto;
+    }
+    .breadcrum_container .breadcrum ul li {
+        margin-right: 5px;
+    }
+    .breadcrum_container .download_btn {
+        width: 50%;
+        text-align: end;
+    }
+    .breadcrum_container .download_btn img {
+        width: 12px;
+        margin-right: 4px;
+    }
+    .breadcrum_container .download_btn a {
+        font-size: 12px;
+    }
+
+    .top_header_container .heading {
+        align-items: center;
+    }
+    .top_header_container .heading h2 {
+        font-size: 26px;
+        padding-top: 15px;
+    }
+
+    .car_model_listing .prod_item .badge span {
+        font-size: 11px;
+        padding: 5px 10px;
+        padding-bottom: 4px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+    .label {
+        font-size: 14px;
+        padding-left: 31px;
+    }
+
+    .checkmark:after {
+        left: 3px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .header_language .drop_down {
+        top: 35px;
+        width: 130px;
+    }
+    .header_share .drop_down1 {
+        top: 35px;
+    }
+    .header_language .drop_down .lang li {
+        padding: 5px 0px;
+    }
+    .header_language .drop_down .lang li a {
+        font-size: 13px;
+    }
+}

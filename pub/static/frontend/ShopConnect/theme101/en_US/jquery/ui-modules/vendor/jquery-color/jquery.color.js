@@ -1,0 +1,1 @@
+/var/www/html/shopconnect/lib/web/jquery/ui-modules/vendor/jquery-color/jquery.color.js

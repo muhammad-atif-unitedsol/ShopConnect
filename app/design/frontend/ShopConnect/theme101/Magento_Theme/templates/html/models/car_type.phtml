@@ -1,0 +1,138 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+?>
+  <div class="inner_container">
+<div class="car_model_listing block_content padding_bottom">
+    <h2>Models</h2>
+    <p>Select from a range of models in our new & used cars stock</p>
+    <div class="tab">
+        <button
+            class="tablinks"
+            onclick="openCity(event, 'newcar')"
+            id="defaultOpen"
+        >
+            New cars
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'usedcar')">
+            Used cars
+        </button>
+    </div>
+    <div id="newcar" class="tabcontent" style="display: block;">
+        <ul class="prod_items">
+            <li class="prod_item">
+                <a href="#">
+                    
+                <img src="<?php echo $block->getViewFileUrl('images/veloster_model-img.jpg'); ?>" alt="Veloster" />
+            
+            </a>
+                <a href="#" class="name">Veloster</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/palisade_model-img.jpg'); ?>" alt="Palisade" /></a>
+                <a href="#" class="name">Palisade</a>
+                <span class="price_rang">Starting from SAR 185,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/azera_model-img.jpg'); ?>" alt="Azera" /></a>
+                <a href="#" class="name">Azera</a>
+                <span class="price_rang">Starting from SAR 170,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/veloster_model-img.jpg'); ?>" alt="Sonata" /></a>
+                <a href="#" class="name">Sonata</a>
+                <span class="price_rang">Starting from SAR 190,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/accent_model-img.jpg'); ?>" alt="Accent" /></a>
+                <a href="#" class="name">Accent</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/elantra_model-img.jpg'); ?>" alt="Elantra" /></a>
+                <a href="#" class="name">Elantra</a>
+                <span class="price_rang">Starting from SAR 185,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/creta_model-img.jpg'); ?>" alt="Creta" /></a>
+                <a href="#" class="name">Creta</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/tucson_model-img.jpg'); ?>" alt="Tucson" /></a>
+                <a href="#" class="name">Tucson</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+        </ul>
+    </div>
+    <div id="usedcar" class="tabcontent" style="display: none;">
+        <ul class="prod_items">
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/azera_model-img.jpg'); ?>" alt="Azera" /></a>
+                <a href="#" class="name">Azera</a>
+                <span class="price_rang">Starting from SAR 170,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/palisade_model-img.jpg'); ?>" alt="Palisade" /></a>
+                <a href="#" class="name">Palisade</a>
+                <span class="price_rang">Starting from SAR 185,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/veloster_model-img.jpg'); ?>" alt="Veloster" /></a>
+                <a href="#" class="name">Veloster</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/sonata_model-img.jpg'); ?>" alt="Sonata" /></a>
+                <a href="#" class="name">Sonata</a>
+                <span class="price_rang">Starting from SAR 190,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/accent_model-img.jpg'); ?>" alt="Accent" /></a>
+                <a href="#" class="name">Accent</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/elantra_model-img.jpg'); ?>" alt="Elantra" /></a>
+                <a href="#" class="name">Elantra</a>
+                <span class="price_rang">Starting from SAR 185,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/creta_model-img.jpg'); ?>" alt="Creta" /></a>
+                <a href="#" class="name">Creta</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+            <li class="prod_item">
+                <a href="#"><img src="<?php echo $block->getViewFileUrl('images/tucson_model-img.jpg'); ?>" alt="Tucson" /></a>
+                <a href="#" class="name">Tucson</a>
+                <span class="price_rang">Starting from SAR 150,000</span>
+            </li>
+        </ul>
+    </div>
+    <div class="more_btn"><a href="#">View all models</a></div>
+</div>
+</div>
+
+<script>
+    //model tabs
+
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+//social tabs
+
+</script>

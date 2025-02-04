@@ -1,0 +1,1 @@
+/var/www/html/shopconnect/vendor/magento/module-catalog/view/frontend/web/js/view/image.js

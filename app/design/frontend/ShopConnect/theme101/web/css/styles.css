@@ -1,0 +1,342 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/*/ HTML5 display-role reset for older browsers /*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background: #fff;
+    font-family: "hyundai_reg";
+    color: #000d1f;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+a {
+    color: #4bac4c;
+    text-decoration: none;
+    transition: background-color 0.4s ease 0s, border 0s ease 0s,
+        color 0.4s ease 0s, opacity 0.4s ease-in-out 0s;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.nav-sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 118, 118);
+}
+
+.custom-cart-icon {
+    width: 30px; /* Adjust size */
+    height: auto;
+}
+
+@font-face {
+    font-family: "hyundai_reg";
+    src: url("../fonts/../fonts/HyundaiSansTextOffice-Medium.eot")
+            format("embedded-opentype"),
+        url("../fonts/../fonts/HyundaiSansTextOffice-Regular.woff")
+            format("woff"),
+        url("../fonts/../fonts/HyundaiSansHeadOffice-Regular.woff2")
+            format("woff2"),
+        url("../fonts/../fonts/HyundaiSansTextOffice-Regular.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hyundai_medium";
+    src: url("../fonts/../fonts/HyundaiSansTextOffice-Medium.eot")
+            format("embedded-opentype"),
+        url("../fonts/../fonts/HyundaiSansTextOffice-Medium.woff")
+            format("woff"),
+        url("../fonts/../fonts/HyundaiSansHeadOffice-Medium.woff2")
+            format("woff2"),
+        url("../fonts/../fonts/HyundaiSansTextOffice-Medium.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+.custom-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.header.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+
+.wallan-container {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); Creates 3 equal columns */
+    background-color: #f6f3f2;
+    box-shadow: inset 0px 0px 4px 4px #f0edec;
+    width: 100%;
+
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 15px 0px;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex; /* Makes sure content inside each child is aligned properly */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    /* background-color: grey; */
+    width: 100%;
+    margin: auto;
+}
+
+.welcome-message {
+    display: flex; /* Makes sure content inside each child is aligned properly */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    /* background-color: lime; */
+    width: 100%;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hyundai-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navigation {
+    /* Your styles here */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-menu-item-wrapper {
+    list-style-type: none;
+}
+
+/* Search icon styling */
+.search-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+#search_mini_form {
+    width: 100%;
+}
+
+.panel.wrapper {
+    display: none;
+}
+
+.two-column-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f3f2;
+    box-shadow: inset 0px 0px 4px 4px #f0edec;
+
+    padding: 12px;
+}
+.hyundai-nav li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.custom-search-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #fff8f6;
+}
+
+.custom-search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border: #fff8f6;
+}
+
+.custom-search-button:hover {
+    border: #fff8f6;
+}
+
+.custom-search-button-container:hover {
+    border: #fff8f6;
+}
+
+.block_content .more_btn {
+    width: 100%;
+}
+.block_content .more_btn a {
+    font-size: 16px;
+    color: #fff;
+    background-color: #002c5e;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    font-family: "hyundai_reg";
+    display: inline-block;
+}
+
+.block_content .more_btn a:hover {
+    background-color: #003b7d;
+}
+
+.my-account-link a {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center */
+}
+
+.my-account-link a i {
+    /* Target font icon */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.my-account-link a img {
+    /* Target image icon */
+    margin-right: 5px; /* Space between icon and text */
+}
+.custom-account {
+}

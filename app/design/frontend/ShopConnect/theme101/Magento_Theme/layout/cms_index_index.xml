@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="owl.slider" template="Magento_Theme::html/owl-slider/owl_slider.phtml" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Cms\Block\Block" name="home.banner">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">home_banner_static</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceContainer name="content">
+
+            <container name="offers.model" htmlTag="div" htmlClass="offers_models">
+                <block class="Magento\Cms\Block\Block" name="hyundai.offers">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">special.offers</argument>
+                    </arguments>
+                </block>
+            </container>
+
+
+
+
+        </referenceContainer>
+
+
+
+        <referenceContainer name="content">
+
+
+            <block class="Magento\Cms\Block\Block" name="finance.available">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">finance.available</argument>
+                </arguments>
+            </block>
+
+        </referenceContainer>
+        <referenceContainer name="content">
+
+
+            <block class="Magento\Cms\Block\Block" name="buy.from.hyundai">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">buy.from.hyundai</argument>
+                </arguments>
+            </block>
+
+        </referenceContainer>
+
+        <referenceContainer name="content">
+
+            <block class="Magento\Cms\Block\Block" name="hyundai.assistance">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">need.assistance</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Template" name="hyundai.social" template="Magento_Theme::html/social/social_tabs.phtml" />
+
+        </referenceContainer>
+        <block class="Magento\Framework\View\Element\Template" name="hyundai.models" template="Magento_Theme::html/models/car_type.phtml" />
+        <move element="hyundai.models" destination="offers.model" />
+    </body>
+</page>

@@ -1,0 +1,118 @@
+<?php
+// This file can be included or used in your theme's block rendering
+?>
+
+<div class="inner_container">
+    <div class="block_content section_padding">
+        <h2>Hyundai Wallan social media</h2>
+        <p>
+            Our dedicated customer care team is always eager to assist your
+            needs.
+        </p>
+        <div class="social_tabs">
+            <button
+              class="tablinkss"
+              onclick="socialmedia(event, 'facebook')"
+              id="defaultOpens"
+            >
+              Facebook
+            </button>
+            <button class="tablinkss" onclick="socialmedia(event, 'twitter')">
+              Twitter
+            </button>
+            <button class="tablinkss" onclick="socialmedia(event, 'instagram')">
+              Instagram
+            </button>
+        </div>
+
+        <div id="facebook" class="tabcontents">
+            <ul class="social_four_col">
+                <li>
+                    <a href="#">
+                        <img src="<?php echo $block->getViewFileUrl('images/social_fb_post-1.jpg'); ?>" alt="Post 1" class="post-img" />
+                    </a>
+                    <div class="box">
+                        <a href="#">Hyundai social story</a>
+                        <div class="social_date">
+                            <span>August 20, 2020</span>
+                            <img src="<?php echo $block->getViewFileUrl('images/fb_social_icon.png'); ?>" alt="Facebook icon" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="<?php echo $block->getViewFileUrl('images/social_fb_post-2.jpg'); ?>" alt="Post 2" class="post-img" />
+                    </a>
+                    <div class="box">
+                        <a href="#">The new azera live reveal</a>
+                        <div class="social_date">
+                            <span>September 02, 2020</span>
+                            <img src="<?php echo $block->getViewFileUrl('images/fb_social_icon.png'); ?>" alt="Facebook icon" />
+                        </div>
+                    </div>
+                </li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+        <div id="twitter" class="tabcontents">
+            <ul class="social_four_col">
+                <li>
+                    <a href="#">
+                        <img src="<?php echo $block->getViewFileUrl('images/social_fb_post-3.jpg'); ?>" alt="Post 3" class="post-img" />
+                    </a>
+                    <div class="box">
+                        <a href="#">Hyundai social story</a>
+                        <div class="social_date">
+                            <span>September 04, 2020</span>
+                            <img src="<?php echo $block->getViewFileUrl('images/fb_social_icon.png'); ?>" alt="Facebook icon" />
+                        </div>
+                    </div>
+                </li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+        <div id="instagram" class="tabcontents">
+            <ul class="social_four_col">
+                <li>
+                    <a href="#">
+                        <img src="<?php echo $block->getViewFileUrl('images/social_fb_post-1.jpg'); ?>" alt="Post 1" class="post-img" />
+                    </a>
+                    <div class="box">
+                        <a href="#">Hyundai social story</a>
+                        <div class="social_date">
+                            <span>August 20, 2020</span>
+                            <img src="<?php echo $block->getViewFileUrl('images/fb_social_icon.png'); ?>" alt="Facebook icon" />
+                        </div>
+                    </div>
+                </li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+        <div class="more_btn">
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function socialmedia(evts, cityNames) {
+    var i, tabcontents, tablinkss;
+    tabcontents = document.getElementsByClassName("tabcontents");
+    for (i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].style.display = "none";
+    }
+    tablinkss = document.getElementsByClassName("tablinkss");
+    for (i = 0; i < tablinkss.length; i++) {
+        tablinkss[i].className = tablinkss[i].className.replace(" active", "");
+    }
+    document.getElementById(cityNames).style.display = "block";
+    evts.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpens").click();
+
+</script>

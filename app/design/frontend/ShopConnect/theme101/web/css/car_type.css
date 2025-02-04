@@ -1,0 +1,95 @@
+.car_model_listing {
+    width: 100%;
+}
+.car_model_listing .tab {
+    width: 100%;
+    display: inline-flex;
+    margin: 30px 0px;
+}
+.car_model_listing .tab .tablinks {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    padding: 18px 14px;
+    padding-top: 20px;
+    font-family: "hyundai_medium";
+    border: 0;
+    background-color: #002c5e;
+    outline: 0;
+    cursor: pointer;
+}
+.car_model_listing .tab .active {
+    background-color: #fff;
+    color: #002c5e;
+}
+
+.car_model_listing .tabcontent {
+    width: 100%;
+    display: inline-block;
+    padding: 40px 0px;
+    padding-bottom: 60px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+.car_model_listing .prod_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+}
+.car_model_listing .prod_items img {
+    max-width: 100%;
+}
+
+.car_model_listing .prod_items .name {
+    font-size: 18px;
+    color: #000;
+    font-family: "hyundai_medium";
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 0px;
+}
+.car_model_listing .prod_items .price_rang {
+    color: #424242;
+    font-size: 16px;
+    font-family: "hyundai_reg";
+}
+
+.car_model_listing .prod_item {
+    position: relative;
+}
+.car_model_listing .prod_item .badge {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.car_model_listing .prod_item .badge span {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    font-family: "hyundai_reg";
+    background-color: #00aad2;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,42 @@
+.banner_static_types {
+    width: 100%;
+    background-color: #002c5e;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.banner_static_types ul li {
+    width: 19%;
+    padding-right: 10px;
+    display: inline-flex;
+}
+.banner_static_types ul li:last-child {
+    padding-right: 0px;
+}
+
+.banner_static_types ul li a {
+    display: inline-flex;
+    align-items: center;
+}
+.banner_static_types ul li img {
+    max-width: 100%;
+}
+.banner_static_types ul li span {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 22px;
+    font-family: "hyundai_medium";
+}
+
+/* .banner_static_types ul li span:after {
+    content: "";
+    background-image: url("..images/greater_arrow_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: -20px;
+    bottom: 3px;
+    width: 7px;
+    height: 14px;
+} */

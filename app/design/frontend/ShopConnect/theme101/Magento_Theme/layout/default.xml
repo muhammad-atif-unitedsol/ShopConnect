@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <container name="header.content" htmlTag="div" htmlClass="wallan-container">
+        <block class="Magento\Framework\View\Element\Template" name="custom_welcome_block" template="Magento_Theme::html/welcome_message.phtml"/>
+    </container>
+
+    <container name="two.column.container" htmlTag="div" htmlClass="two-column-container">
+        <container name="left-col" htmlTag="div" htmlClass="left-col" />
+        <container name="right-col" htmlTag="div" htmlClass="right-col" />
+    </container>
+    <move element="two.column.container" destination="header.container" />
+
+    <container name="search-container" htmlTag="div" htmlClass="search-container" htmlId="search_container" />
+    <move element="top.search" destination="search-container" />
+
+    <move element="search-container" destination="header.container" after="-"/>
+
+    <block class="Magento\Framework\View\Element\Template" name="search.btn" template="Magento_Theme::html/search_btn.phtml"/>
+    <!-- <block class="Magento\Framework\View\Element\Template" name="static.types" template="Magento_Theme::html/static_types.phtml"/> -->
+    <block class="Magento\Store\Block\Switcher" name="store_language" as="store_language" template="Magento_Store::switch/languages.phtml"/>
+
+    <move element="logo" destination="header.content" />
+    <move element="header.content" destination="header.container" before="-" />
+
+    <container name="hyundai.nav" htmlTag="div" htmlClass="hyundai-nav">
+
+    </container>
+
+    <move element="minicart" destination="hyundai.nav" />
+
+    <move element="search.btn" destination="hyundai.nav" />
+
+    <move element="store_language" destination="hyundai.nav" />
+
+
+
+    <!-- <move element="my-account-link" destination="hyundai.nav" /> -->
+
+
+    <!-- <block class="Magento\Framework\View\Element\Template" name="custom_account_icon" template="Magento_Customer::account/link/my-account.phtml" /> -->
+
+
+    <!-- <move element="custom_account_icon" destination="hyundai.nav" /> -->
+
+
+    <move element="hyundai.nav" destination="right-col" />
+    <move element="catalog.topnav" destination="left-col"/>
+
+    <referenceBlock name="currency" remove="true" />
+    <referenceBlock name="wish-list-link" remove="true"/>
+    <!-- <referenceBlock name="top.links" remove="true"/> -->
+    <!-- <move element="static.types" destination="content"/> -->
+    <referenceBlock name="footer_links" remove="true"/>
+    <referenceBlock name="report.bugs" remove="true"/>
+    <referenceBlock name="form.subscribe" remove="true">
+
+
+    </referenceBlock>
+
+
+
+
+
+
+    <!-- Footer Layout -->
+    <!-- Main Footer Container -->
+    <container name="wallan.footer" label="wallan.footer" htmlTag="footer" htmlClass="footer">
+        <!-- Inner Container -->
+        <container name="wallan.footer.inner" label="wallan.footer.inner" htmlTag="div" htmlClass="inner_container">
+            <!-- Logo Block -->
+            <block class="Magento\Framework\View\Element\Template" name="hyundai.logo" template="Magento_Theme::html/footer/hyundai_logo.phtml"/>
+            <!-- End Logo Block -->
+
+            <!-- Content Container-->
+            <container name="wallan.footer.content" label="wallan.footer.content" htmlTag="div" htmlClass="content">
+                <!-- Footer Main Content -->
+                <container name="wallan.footer.content.inner" label="wallan.footer.content.inner" htmlTag="div" htmlClass="footer_links accordion-container" htmlId="accordion">
+
+                    <block class="Magento\Framework\View\Element\Template" name="services.block" template="Magento_Theme::html/footer/footer_content/services_block.phtml"/>
+                    <block class="Magento\Framework\View\Element\Template" name="contact.block" template="Magento_Theme::html/footer/footer_content/contact_block.phtml"/>
+                    <block class="Magento\Framework\View\Element\Template" name="about.us.block" template="Magento_Theme::html/footer/footer_content/about_us_block.phtml"/>
+                    <block class="Magento\Framework\View\Element\Template" name="social.block" template="Magento_Theme::html/footer/footer_content/social_block.phtml"/>
+                </container>
+            </container>
+            <!-- End Content Container -->
+            <!-- Address container-->
+            <container name="wallan.footer.address" label="wallan.footer.address" htmlTag="div" htmlClass="footer_address">
+                <block class="Magento\Framework\View\Element\Template" name="wallan.logo" template="Magento_Theme::html/footer/footer_adress/wallan_logo.phtml"/>
+                <block class="Magento\Framework\View\Element\Template" name="wallan.address" template="Magento_Theme::html/footer/footer_adress/wallan_adress.phtml"/>
+                <block class="Magento\Framework\View\Element\Template" name="wallan.phone" template="Magento_Theme::html/footer/footer_adress/wallan_phone_no.phtml"/>
+            </container>
+
+            <!-- footer bottom -->
+            <container name="wallan.footer.bottom" label="wallan.footer.bottom" htmlTag="div" htmlClass="footer_bottom">
+
+                <container name="wallan.footer.links" label="links" htmlTag="div" htmlClass="links">
+                    <!-- <block class="Magento\Framework\View\Element\Template" name="wallan.links" template="Magento_Theme::html/footer/footer_links/wallan_links.phtml"/> -->
+                    <block class="Magento\Cms\Block\Block" name="custom.links.block">
+                        <arguments>
+                            <argument name="block_id" xsi:type="string">custom_links_block</argument>
+                        </arguments>
+                    </block>
+                    <container htmlClass="wallan-copyright" name="wallan.copyright" htmlTag="div"/>
+
+                </container>
+
+                <!-- template="Magento_Theme::html/footer/footer_links/wallan_copyright.phtml"/> -->
+
+
+
+            </container>
+        </container>
+    </container>
+
+    <move element="wallan.footer" destination="footer"/>
+    <move element="copyright" destination="wallan.copyright" />
+
+
+
+
+</layout>

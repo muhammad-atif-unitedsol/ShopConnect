@@ -1,0 +1,23 @@
+.social_tabs {
+    width: 100%;
+    display: inline-block;
+    margin: 30px 0px;
+}
+.social_tabs .tablinkss {
+    width: 33%;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    padding: 18px 14px;
+    padding-top: 20px;
+    font-family: "hyundai_medium";
+    border: 0;
+    background-color: #002c5e;
+    outline: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.social_tabs .active {
+    background-color: #fff;
+    color: #002c5e;
+}

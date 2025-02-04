@@ -1,0 +1,6 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1738669084;s:6:"expire";i:1738672684;s:4:"tags";s:98:"c6f_BLOCK_HTML,c6f_CAT_C,c6f_CAT_C_15,c6f_CAT_C_16,c6f_CAT_C_17,c6f_CAT_C_18,c6f_CAT_C_19,c6f_MAGE";}
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 category-item first level-top"><a href="http://localhost.shopconnect/models.html"  class="level-top" ><span>Models</span></a></li><li  class="level0 nav-2 category-item level-top"><a href="http://localhost.shopconnect/offers.html"  class="level-top" ><span>Offers</span></a></li><li  class="level0 nav-3 category-item level-top"><a href="http://localhost.shopconnect/customer-care.html"  class="level-top" ><span>Customer care</span></a></li><li  class="level0 nav-4 category-item level-top"><a href="http://localhost.shopconnect/wallan-story.html"  class="level-top" ><span> Wallan story</span></a></li><li  class="level0 nav-5 category-item last level-top"><a href="http://localhost.shopconnect/contact-us.html"  class="level-top" ><span>Contact us</span></a></li>            </ul>
+</nav>

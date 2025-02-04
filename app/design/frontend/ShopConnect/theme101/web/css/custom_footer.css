@@ -1,0 +1,138 @@
+.page-footer {
+    background-color: #1c1b1b;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1c1b1b;
+    padding: 50px 0px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.footer .logo {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.footer .logo img {
+    max-width: 100%;
+}
+
+.footer .footer_links {
+    width: 100%;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+.footer .footer_links .col {
+    width: 25%;
+}
+.footer .footer_links .col:first-child {
+    width: 30%;
+}
+.footer .footer_links .col .title {
+    color: #e9e9e9;
+    font-size: 17px;
+    font-family: "hyundai_medium";
+    padding-bottom: 25px;
+}
+.footer .footer_links .col ul li {
+    display: block;
+    padding-bottom: 10px;
+}
+.footer .footer_links .col ul li a {
+    color: #8a8a8a;
+    font-size: 14px;
+    font-family: "hyundai_reg";
+    line-height: 24px;
+}
+.footer .footer_links .col ul li a:hover {
+    color: #fff;
+}
+
+.footer .footer_links .col .social_media_link li {
+    display: inline-block;
+    padding: 0;
+    padding-right: 6px;
+}
+.footer .footer_links .col .social_media_link li:last-child {
+    padding-right: 0;
+}
+.footer .footer_links .col .social_media_link li img {
+    max-width: 100%;
+}
+
+.footer .footer_address {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.footer_address .wallan_logo {
+    width: 42%;
+}
+.footer_address .wallan_logo img {
+    max-width: 100%;
+}
+
+.footer_address .address {
+    width: 43%;
+}
+.footer_address .address p {
+    font-size: 15px;
+    color: #6a6a6a;
+    line-height: 26px;
+    font-family: "hyundai_reg";
+}
+
+.footer_address .phone_no {
+    width: 25%;
+}
+.footer_address .phone_no p {
+    color: #6a6a6a;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "hyundai_reg";
+}
+
+.footer .footer_bottom {
+    width: 100%;
+}
+.footer .footer_bottom .links {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer .footer_bottom .links ul {
+}
+.footer .footer_bottom .links ul li {
+    display: inline-flex;
+    padding-right: 20px;
+}
+.footer .footer_bottom .links ul li a {
+    color: #999999;
+    font-size: 14px;
+    font-family: "hyundai_reg";
+}
+
+.footer .footer_bottom .wallan-copyright.copyright {
+    width: 100%;
+}
+.footer .footer_bottom .wallan-copyright.copyright span {
+    color: #525252;
+    font-size: 13px;
+    font-family: "hyundai_reg";
+}
+.footer.content {
+    border-top: 0px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.copyright {
+    color: #525252;
+    font-size: 13px;
+}
